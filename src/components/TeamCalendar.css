@@ -1,0 +1,33 @@
+/* TeamCalendar.css */
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add spacing between form groups */
+  }
+  
+  .form-group label {
+    width: 100px; /* Adjust the label width as needed */
+    margin-right: 10px; /* Add spacing between label and input */
+  }
+  
+  .form-input {
+    flex: 1;
+    height: 32px; /* Set the height of the input fields */
+    padding: 4px 8px; /* Adjust padding as needed */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: right;
+    gap: 10px; /* Adjust the value to increase/decrease the space between buttons */
+    margin-top: 10px; /* Add margin to separate the buttons from the form fields */
+  }
+  
+  .rbc-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
